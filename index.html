@@ -12,6 +12,9 @@
         
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
+        
+        <!--==================== AOS LIBRARY ====================-->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
         <title>Responsive Portfolio Website</title>
     </head>
@@ -130,7 +133,7 @@
             </section>
 
             <!--==================== ABOUT ====================-->
-            <section class="about section" id="about">
+            <section class="about section" data-aos="fade-up" id="about">
                 <h2 class="section__title">About Me</h2>
                 <span class="section__subtitle">My Introduction</span>
 
@@ -162,7 +165,7 @@
             </section>
 
             <!--==================== SKILLS ====================-->
-            <section class="skills section" id="skills">
+            <section class="skills section" data-aos="fade-up" id="skills">
                 <h2 class="section__title">Skills</h2>
                 <span class="section__subtitle">My technical level</span>
                 
@@ -260,7 +263,7 @@
             </section>
 
             <!--==================== QUALIFICATION ====================-->
-            <section class="qualification section">
+            <section class="qualification section" data-aos="fade-up">
                 <h2 class="section__title">Qualification</h2>
                 <span class="section__subtitle">My personal journey</span>
                 
@@ -382,7 +385,7 @@
             </section>
 
             <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
+            <section class="services section" data-aos="fade-right" id="services">
                 <h2 class="section__title">Services</h2>
                 <span class="section__subtitle">What I Do</span>
                 <div class="services__container container grid">
@@ -448,7 +451,7 @@
             </section>
 
             <!--==================== PORTFOLIO ====================-->
-            <section class="portfolio section" id="portfolio">
+            <section class="portfolio section" data-aos="fade-left" id="portfolio">
                 <h2 class="section__title">Portfolio</h2>
                 <span class="section__subtitle">Most Recent Works</span>
                 
@@ -512,7 +515,7 @@
             </section>
 
             <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
+            <section class="project section" data-aos="fade-in">
                 <div class="project__bg">
                     <div class="project__container container grid">
                         <div class="project__data">
@@ -530,7 +533,7 @@
             </section>
 
             <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
+            <section class="testimonial section" data-aos="fade-up">
                 <h2 class="section__title">Testimonial</h2>
                 <span class="section__subtitle">My client saying</span>
                 
@@ -561,7 +564,7 @@
                             </div>
                     
                         <!--==================== TESTIMONIAL 2====================-->
-                        <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__content swiper-slide" >
                             <div class="testimonial__data">
                                 <div class="testimonial__header">
                                         <img src="assets/img/testimonial2.jpg" alt="" class="testimonial__img">
@@ -615,7 +618,7 @@
             </section>
 
             <!--==================== CONTACT ME ====================-->
-            <section class="contact section" id="contact">
+            <section class="contact section" id="contact" data-aos="fade-up">
                 <h2 class="section__title">Contact Me</h2>
                 <span class="section__subtitle">Get in Touch</span>
 
@@ -726,7 +729,15 @@
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
-
+        
+        <!--==================== JQUERY ====================-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        
+        <!--====================AOS LIBRARY ====================-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init(4000);
+        </script>
+      
     </body>
 </html>
