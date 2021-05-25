@@ -192,3 +192,8 @@ themeButton.addEventListener('click', () => {
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+
+setTimeout(function() {
+    $('.loader__bg').fadeToggle();
+},1500);
