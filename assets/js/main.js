@@ -196,4 +196,4 @@ themeButton.addEventListener('click', () => {
 
 setTimeout(function() {
     $('.loader__bg').fadeToggle();
-},1500);
+},1000);
