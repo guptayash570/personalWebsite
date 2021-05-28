@@ -1138,3 +1138,9 @@ img {
     opacity: 0;
   }
 }
+/* --------- Blogs ---------- */
+.blogs__container .services__content {
+  border: 1px solid var(--text-color-light);
+  border-radius: 1rem;
+  padding: 3rem;
+}
